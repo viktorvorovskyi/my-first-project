@@ -1,0 +1,6 @@
+.posts{
+  grid-area: posts;
+ height: minmax(300px auto);
+  
+  background-color: cornsilk;
+}
