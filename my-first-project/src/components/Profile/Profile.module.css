@@ -1,19 +1,6 @@
 .content{
   grid-area: c;
   
-  display:grid;
-  grid-template-areas: 
-  "mainImage mainImage"
-  "avatar description"
-  "posts posts";
-  grid-template-rows: 140px 100px 1fr;
-  grid-template-columns: 1fr 7fr;
-  grid-gap: 10px;
-}
-.mainImage {
-  grid-area: mainImage;
-  background-color: aqua;
-  
 
 }
 .mainImage img{
@@ -22,24 +9,13 @@
   height: 140px;
   
 }
-.avatar{
-
-  grid-area: avatar;
-  background-color: #c8ddf8;
-}
 .avatar img{
   
  
   width: 60px;
   height: 60px;
 }
-.description {
 
-  grid-area: description;
-  background-color: #c8ddf8;
-  
-  
-}
 .item{
   color: green;
 }
